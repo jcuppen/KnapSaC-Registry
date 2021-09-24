@@ -1,0 +1,14 @@
+{
+	"name": "png",
+	"author": "sbscholz",
+	"repository": "https://github.com/SacBase/modulesCollection1",
+	"buildInstrucuctions": [
+		"brew install imagemagick",
+		"mkdir buildpng",
+		"cd buildpng",
+		"cmake ../png/cmake-files",
+		"make -j2",
+	],
+	"artifactsLocation": "./buildpng",
+	"dependencies": []
+}

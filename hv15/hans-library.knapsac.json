@@ -1,0 +1,13 @@
+{
+	"name": "hans-library",
+	"author": "hv15",
+	"repository": "https://github.com/SacBase/modulesCollection1",
+	"buildInstrucuctions": [
+		"mkdir build",
+		"cd build",
+		"cmake ../hans-lib/cmake-configuration",
+		"make -j4",
+	],
+	"artifactsLocation": "./build",
+	"dependencies": []
+}

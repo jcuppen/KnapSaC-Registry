@@ -1,0 +1,17 @@
+{
+	"name": "job-program",
+	"author": "jcuppen",
+	"repository": "https://github.com/jcuppen/my-program",
+	"buildInstrucuctions": [
+		"sac2c magically-resolve-dependencies"
+		"mkdir build",
+		"cd build",
+		"cmake ..",
+		"make",
+	],
+	"artifactsLocation": "./build",
+	"dependencies": [
+		"hv15/hans-library",
+		"sbscholz/png"
+	]
+}
